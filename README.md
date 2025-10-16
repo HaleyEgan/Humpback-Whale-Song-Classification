@@ -2,7 +2,7 @@
 
 By Haley Egan
 
-This project was conducted in collaboration with Nan Hauser at the Center for Cetacean Research & Conservation, who generously provided audio data for humpback whales in the Cook Islands and Bermuda. 
+This project was conducted in collaboration with Nan Hauser at the Center for Cetacean Research & Conservation, who generously shared lots of wonder humpback whale audio data.
 
 ## Project Overview
 
@@ -52,15 +52,21 @@ This project implements a deep learning pipeline to classify humpback whale voca
 
 #### Audio Format Specifications:
 
-**Channels**: Stereo audio (2 channels)
-**Structure**: Left and right audio channels are interleaved in single files
-**Implication**: Requires channel separation during preprocessing to access individual left/right audio streams
+- **Channels**: Stereo audio (2 channels)
+- **Structure**: Left and right audio channels are interleaved in single files (alternating left/right channel samples)
+- **Implication**: Requires channel separation during preprocessing to access individual left/right audio streams
 
 #### Data Preprocessing Considerations:
 
 - Channel separation may be needed to analyze left vs right audio independently
 - Stereo format could provide spatial audio information useful for classification
 - File format and sample rate specifications should be documented for consistent processing
+
+## Initial Results
+
+The classification pipeline was tested on the original full-length audio files, as well as shorter 75 second and 30 second clips. 30 second clips proved to be as effective as longer clips in predicting location, and were significantly less computationally expensive, so 30 second clips were used for analysis and development of the pipeline. Further experimentation with audio file lengths is encouraged. The segmenting of audio files can be found in the [SplitAudio](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/SplitAudio.ipynb)
+
+
 
 ## Next Steps
 
