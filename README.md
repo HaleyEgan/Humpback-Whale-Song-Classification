@@ -1,2 +1,73 @@
-# Humpback-Whale-Song-Classification
-Classification of humpback whale songs by location
+# Humpback Whale Audio Classification Project
+
+By Haley Egan
+
+This project was conducted in collaboration with Nan Hauser at the Center for Cetacean Research and Conservation, who generously provided audio data for humpback whales in the Cook Islands and Bermuda. 
+
+## Project Overview
+
+This project implements a deep learning pipeline to classify humpback whale vocalizations by geographic location using Convolutional Neural Networks (CNNs). The approach transforms raw audio recordings into visual spectrograms, which are then processed by a CNN in Tensorflow for location-based classification.
+
+## Project Inspiration
+
+## Pipeline Architecture
+
+##### Audio → Spectrogram → CNN → Location Classification
+
+### Pipeline Components:
+
+1. Audio Preprocessing: Raw whale audio files are loaded and preprocessed
+2. Spectrogram Generation: Audio signals are converted to time-frequency representations (spectrograms)
+3. CNN Classification: Deep learning model analyzes spectrograms to predict whale location
+4. Output: Location classification for each audio sample
+
+## Classification Approach
+
+**Location-Based Classification**: Multi-class classification framework
+
+- Classify each audio sample into one of multiple geographic locations
+- Each location represents a distinct class in the classification problem
+- Model outputs probability distribution across all possible locations
+
+**Alternative Approaches**:
+
+- Multi-class: One model predicting among all locations (Location A, B, C, D...)
+- Binary per location: Multiple binary models (one per location) asking "is this location X or not?"
+- Hierarchical: Group locations by region, then classify within regions
+
+## Technical Resources
+
+#### Core Tutorials:
+
+TensorFlow Audio Classification Tutorial - Official TensorFlow guide for audio processing
+CNNs for Audio Classification - Theory and implementation of CNNs for audio
+MNIST Audio Classification with Spectrograms - Practical Keras implementation example
+
+#### Advanced Techniques:
+
+Custom Audio Classification with TensorFlow - Building custom audio classification models
+Audio Echo Processing - Audio augmentation and noise reduction techniques
+
+## Dataset Information
+
+**Source**: Center for Cetacean Research and Conservation (Nan Hauser's dataset)
+
+#### Audio Format Specifications:
+
+**Channels**: Stereo audio (2 channels)
+**Structure**: Left and right audio channels are interleaved in single files
+**Implication**: Requires channel separation during preprocessing to access individual left/right audio streams
+
+#### Data Preprocessing Considerations:
+
+- Channel separation may be needed to analyze left vs right audio independently
+- Stereo format could provide spatial audio information useful for classification
+- File format and sample rate specifications should be documented for consistent processing
+
+## Next Steps
+
+1. **Data Exploration**: Analyze audio file formats, sample rates, and duration distributions
+2. **Preprocessing Pipeline**: Implement audio loading, channel separation, and spectrogram generation
+3. **Model Architecture**: Design CNN architecture optimized for spectrogram classification
+4. **Training Strategy**: Develop train/validation/test splits and evaluation metrics
+5. **Location Mapping**: Define geographic location categories for classification targets
