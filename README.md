@@ -6,18 +6,18 @@ This project was conducted in collaboration with Nan Hauser at the Center for Ce
 
 ## Project Overview
 
-This project implements a deep learning pipeline to classify humpback whale vocalizations by geographic location using Convolutional Neural Networks (CNNs). The approach transforms raw audio recordings into visual spectrograms, which are then processed by a CNN in Tensorflow for location-based classification.
+This project implements a deep learning pipeline to classify humpback whale vocalizations by geographic location using Convolutional Neural Networks (CNNs). The approach transforms raw audio recordings into spectrogram images, which are then processed using a CNN in Tensorflow for location-based classification.
 
 ## Pipeline Architecture
 
-**Audio → Spectrogram → CNN → Location Classification**
+**Audio → Spectrogram → CNN → Location Classification -> Model and Prediction Evaluation**
 
 ### Pipeline Components:
 
 1. **Audio Preprocessing**: Raw whale audio files are loaded and preprocessed
 2. **Spectrogram Generation**: Audio signals are converted to time-frequency representations (spectrograms)
-3. **CNN Classification**: Deep learning model analyzes spectrograms to predict whale location
-4. **Output**: Location classification for each audio sample
+3. **CNN Classification**: Convolutional Neural Network analyzes spectrograms to find patterns based on whale location
+4. **Output**: Location classification for each audio sample, and prediction of location for new audio samples
 
 ## Classification Approach
 
