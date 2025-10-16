@@ -37,14 +37,14 @@ This project implements a deep learning pipeline to classify humpback whale voca
 
 #### Core Tutorials:
 
-- TensorFlow Audio Classification Tutorial [Tensorflow Page](https://www.tensorflow.org/tutorials/audio/simple_audio) - Official TensorFlow guide for audio processing
-- CNNs for Audio Classification - Theory and implementation of CNNs for audio
-- MNIST Audio Classification with Spectrograms - Practical Keras implementation example
+- [TensorFlow Audio Classification Tutorial] (https://www.tensorflow.org/tutorials/audio/simple_audio) - Official TensorFlow guide for audio processing
+- [CNNs for Audio Classification](https://towardsdatascience.com/cnns-for-audio-classification-6244954665ab/) - Theory and implementation of CNNs for audio
+- [MNIST Audio Classification with Spectrograms](https://www.kaggle.com/code/christianlillelund/classify-mnist-audio-using-spectrograms-keras-cnn) - Practical Keras implementation example
 
 #### Advanced Techniques:
 
-Custom Audio Classification with TensorFlow - Building custom audio classification models
-Audio Echo Processing - Audio augmentation and noise reduction techniques
+- [Custom Audio Classification with TensorFlow](https://towardsdatascience.com/custom-audio-classification-with-tensorflow-af8c16c38689/) - Building custom audio classification models
+- [Audio Echo Processing](https://www.kaggle.com/code/naveensgowda/adding-echo-in-audio-and-removing-echo-in-an-audio) - Audio augmentation and noise reduction techniques
 
 ## Dataset Information
 
