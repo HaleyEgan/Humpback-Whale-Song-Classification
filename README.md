@@ -1,4 +1,4 @@
-# Humpback Whale Audio Classification Project
+# Humpback Whale Song Classification Project
 
 By Haley Egan
 
