@@ -14,7 +14,7 @@ This project implements a deep learning pipeline to classify humpback whale voca
 
 ### Pipeline Components:
 
-1. **Audio Preprocessing**: Raw whale audio files are loaded and preprocessed
+1. **Audio Preprocessing**: Raw whale audio files are loaded and preprocessed (cleaned, cropped, etc)
 2. **Spectrogram Generation**: Audio signals are converted to time-frequency representations (spectrograms)
 3. **CNN Classification**: Convolutional Neural Network analyzes spectrograms to find patterns based on whale location
 4. **Output**: Location classification for each audio sample, and prediction of location for new audio samples
@@ -37,9 +37,9 @@ This project implements a deep learning pipeline to classify humpback whale voca
 
 #### Core Tutorials:
 
-TensorFlow Audio Classification Tutorial - Official TensorFlow guide for audio processing
-CNNs for Audio Classification - Theory and implementation of CNNs for audio
-MNIST Audio Classification with Spectrograms - Practical Keras implementation example
+- TensorFlow Audio Classification Tutorial [Tensorflow Page](https://www.tensorflow.org/tutorials/audio/simple_audio) - Official TensorFlow guide for audio processing
+- CNNs for Audio Classification - Theory and implementation of CNNs for audio
+- MNIST Audio Classification with Spectrograms - Practical Keras implementation example
 
 #### Advanced Techniques:
 
