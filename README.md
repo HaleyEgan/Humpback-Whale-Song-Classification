@@ -70,9 +70,17 @@ The classification pipeline was tested on the original full-length audio files, 
 
 - Testing the CNN on the full audio files can be seen at [Spectrogram_to_CNN_FullSong.ipynb](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/Spectrogram_to_CNN_FullSongs.ipynb). 
 
-- The full classification notebook with model evaluation and predications on 30 second audio segments can be found in the notebook [HumpbackWhale_SpectrogramCNN_30SecAudioClips.ipynb] (https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/HumpbackWhale_SpectrogramCNN_30SecAudioClips.ipynb).
+- The full classification notebook with model evaluation and predications on 30 second audio segments can be found in the notebook [HumpbackWhale_SpectrogramCNN_30SecAudioClips.ipynb](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/HumpbackWhale_SpectrogramCNN_30SecAudioClips.ipynb).
 
 ![Humpback Waveforms.png](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/Result_Images/Humpback%20Waveforms.png)
+
+![Example Waveform and Spectrogram.png](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/Result_Images/Example%20Waveform%20and%20Spectrogram.png)
+
+![Humpback Spectrograms.png](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/Result_Images/Humpback%20Spectrograms.png)
+
+![Model Confusion Matrix.png](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/Result_Images/Model%20Confusion%20Matrix.png)
+
+![Example Model Prediction on New Audio File.png](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/Result_Images/Example%20Model%20Prediction%20on%20New%20Audio%20File.png)
 
 
 
