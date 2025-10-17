@@ -47,7 +47,7 @@ This project implements a deep learning pipeline to classify humpback whale voca
 
 ## Dataset Information
 
-**Source**: Center for Cetacean Research and Conservation (Nan Hauser's dataset), and open source audio recordings from Hawaii and Monterey.
+**Source**: Center for Cetacean Research and Conservation (Nan Hauser's dataset) from Bermuda and the Cook Islands, and open source audio recordings from Hawaii and Monterey.
 
 #### Audio Format Specifications:
 
