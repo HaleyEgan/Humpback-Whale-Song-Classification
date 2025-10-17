@@ -66,7 +66,9 @@ This project implements a deep learning pipeline to classify humpback whale voca
 
 The classification pipeline was tested on the original full-length audio files, as well as shorter 75 second and 30 second clips. 30 second clips proved to be as effective, and occationally better than longer clips in predicting location, and were significantly less computationally expensive, so 30 second clips were used for analysis and development of the pipeline. Further experimentation with audio file lengths is encouraged. 
 
-- The segmenting process of audio files can be found in the [SplitAudio_30sec.ipynb](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/SplitAudio.ipynb) and [SplitAudio_75sec.ipynb](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/SplitAudio_75sec.ipynb) notebooks. 
+- The segmenting process of audio files can be found in the [SplitAudio_30sec.ipynb](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/SplitAudio.ipynb) and [SplitAudio_75sec.ipynb](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/SplitAudio_75sec.ipynb) notebooks.
+
+- A verbose walkthrough of converting humpback audio files to spectrograms can be found in [Audio_to_Specrogram.ipynb](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/Audio_to_Specrogram.ipynb). The simplified version of the process is included in the main notebook, HumpbackWhale_SpectrogramCNN_30SecAudioClips.ipynb.
 
 - Testing the CNN on the full audio files can be seen at [Spectrogram_to_CNN_FullSong.ipynb](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/Spectrogram_to_CNN_FullSongs.ipynb). 
 
