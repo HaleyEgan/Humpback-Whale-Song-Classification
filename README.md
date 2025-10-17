@@ -1,6 +1,5 @@
 # Humpback Whale Song Classification Project
-
-By Haley Egan
+Haley Egan
 
 This project was conducted in collaboration with Nan Hauser at the Center for Cetacean Research & Conservation, who generously shared lots of wonder humpback whale audio data.
 
