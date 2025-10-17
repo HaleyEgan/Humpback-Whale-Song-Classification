@@ -62,7 +62,7 @@ This project implements a deep learning pipeline to classify humpback whale voca
 - Stereo format could provide spatial audio information useful for classification
 - File format and sample rate specifications should be documented for consistent processing
 
-## Initial Results
+## Notebooks
 
 The classification pipeline was tested on the original full-length audio files, as well as shorter 75 second and 30 second clips. 30 second clips proved to be as effective, and occationally better than longer clips in predicting location, and were significantly less computationally expensive, so 30 second clips were used for analysis and development of the pipeline. Further experimentation with audio file lengths is encouraged. 
 
@@ -72,6 +72,7 @@ The classification pipeline was tested on the original full-length audio files, 
 
 - The full classification notebook with model evaluation and predications on 30 second audio segments can be found in the notebook [HumpbackWhale_SpectrogramCNN_30SecAudioClips.ipynb](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/HumpbackWhale_SpectrogramCNN_30SecAudioClips.ipynb).
 
+## Initial Results
   
 **Sample of Waveforms from Humpback Whale Audio Segments by Location**
 ![Humpback Waveforms.png](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/Result_Images/Humpback%20Waveforms.png)
