@@ -73,6 +73,8 @@ The classification pipeline was tested on the original full-length audio files, 
 - The full classification notebook with model evaluation and predications on 30 second audio segments can be found in the notebook [HumpbackWhale_SpectrogramCNN_30SecAudioClips.ipynb](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/HumpbackWhale_SpectrogramCNN_30SecAudioClips.ipynb).
 
 ## Initial Results
+
+The below results and visuals can be seen in the notebook [HumpbackWhale_SpectrogramCNN_30SecAudioClips.ipynb](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/HumpbackWhale_SpectrogramCNN_30SecAudioClips.ipynb). Further model evaluation metrics can be found in the notebook, including precision, recall, f1-score, accuracy, and loss. 
   
 **Sample of Waveforms from Humpback Whale Audio Segments by Location**
 ![Humpback Waveforms.png](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/Result_Images/Humpback%20Waveforms.png)
