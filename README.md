@@ -66,11 +66,13 @@ This project implements a deep learning pipeline to classify humpback whale voca
 
 The classification pipeline was tested on the original full-length audio files, as well as shorter 75 second and 30 second clips. 30 second clips proved to be as effective, and occationally better than longer clips in predicting location, and were significantly less computationally expensive, so 30 second clips were used for analysis and development of the pipeline. Further experimentation with audio file lengths is encouraged. 
 
-The segmenting process of audio files can be found in the [SplitAudio_30sec.ipynb](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/SplitAudio.ipynb) and [SplitAudio_75sec.ipynb](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/SplitAudio_75sec.ipynb) notebooks. 
+- The segmenting process of audio files can be found in the [SplitAudio_30sec.ipynb](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/SplitAudio.ipynb) and [SplitAudio_75sec.ipynb](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/SplitAudio_75sec.ipynb) notebooks. 
 
-Testing the CNN on the full audio files can be seen at [Spectrogram_to_CNN_FullSong.ipynb](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/Spectrogram_to_CNN_FullSongs.ipynb). 
+- Testing the CNN on the full audio files can be seen at [Spectrogram_to_CNN_FullSong.ipynb](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/Spectrogram_to_CNN_FullSongs.ipynb). 
 
-The full classification notebook with model evaluation and predications on 30 second audio segments can be found in the notebook [HumpbackWhale_SpectrogramCNN_30SecAudioClips.ipynb] (https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/HumpbackWhale_SpectrogramCNN_30SecAudioClips.ipynb). 
+- The full classification notebook with model evaluation and predications on 30 second audio segments can be found in the notebook [HumpbackWhale_SpectrogramCNN_30SecAudioClips.ipynb] (https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/HumpbackWhale_SpectrogramCNN_30SecAudioClips.ipynb).
+
+![Humpback Waveforms.png](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/Result_Images/Humpback%20Waveforms.png)
 
 
 
