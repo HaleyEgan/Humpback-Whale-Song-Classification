@@ -82,6 +82,7 @@ The below results and visuals can be seen in the notebook [HumpbackWhale_Spectro
 **Sample of Waveforms from Humpback Whale Audio Segments by Location**
 ![Humpback Waveforms.png](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/Result_Images/Humpback%20Waveforms.png)
 
+<br>
 
 **Example of a Waveform and Corresponding Spectrogram for an Audio Segment**
 ![Example Waveform and Spectrogram.png](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/Result_Images/Example%20Waveform%20and%20Spectrogram.png)
