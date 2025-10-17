@@ -92,11 +92,3 @@ The below results and visuals can be seen in the notebook [HumpbackWhale_Spectro
 ![Example Model Prediction on New Audio File.png](https://github.com/HaleyEgan/Humpback-Whale-Song-Classification/blob/main/Result_Images/Example%20Model%20Prediction%20on%20New%20Audio%20File.png)
 
 The class distribution in this notebook is imbalanced, with Bermuda containing the least amount of data. This is visible in the results, with Bermuda containing the highest number of misclassifications. This is something that can be adjusted and experimented with in the future. Ideally, all locations would have significantly more data, spanning many years, different types of recording equipment, and various recording locations within the regions. Data quantity and diversity was a constraint for this project, but with more data and expanded modeling techniques, the future possibilities are endless!
-
-## Next Steps
-
-1. **Data Exploration**: Analyze audio file formats, sample rates, and duration distributions
-2. **Preprocessing Pipeline**: Implement audio loading, channel separation, and spectrogram generation
-3. **Model Architecture**: Design CNN architecture optimized for spectrogram classification
-4. **Training Strategy**: Develop train/validation/test splits and evaluation metrics
-5. **Location Mapping**: Define geographic location categories for classification targets
